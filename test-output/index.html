@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Data_Driven_Test" class="navigator-link">
+              <span class="suite-name border-failed">Data Driven Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Data_Driven_Test" class="navigator-link ">
+                    <span>D:\WorkSpace\eclipse-workspace\PageObjectModelWithPageFactories\src\test\resources\runner\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Data_Driven_Test" class="navigator-link ">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Data_Driven_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Data_Driven_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Data_Driven_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Data_Driven_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Data_Driven_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 4 failed,  4 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Data_Driven_Test" class="hide-methods failed suite-Data_Driven_Test"> (hide)</a> <!-- hide-methods failed suite-Data_Driven_Test -->
+                      <a href="#" panel-name="suite-Data_Driven_Test" class="show-methods failed suite-Data_Driven_Test"> (show)</a> <!-- show-methods failed suite-Data_Driven_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Data_Driven_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Test" title="testcases.FindCarTest" class="method navigator-link" hash-for-method="findCarTest(Toyota, chrome, Y)">findCarTest(Toyota, chrome, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Test" title="testcases.FindCarTest" class="method navigator-link" hash-for-method="findCarTest(Maruti, chrome, Y)">findCarTest(Maruti, chrome, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Test" title="testcases.CarPriceTest" class="method navigator-link" hash-for-method="findCarTest(Maruti, chrome, Y)">findCarTest(Maruti, chrome, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Test" title="testcases.CarPriceTest" class="method navigator-link" hash-for-method="findCarTest(Toyota, chrome, Y)">findCarTest(Toyota, chrome, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Data_Driven_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Data_Driven_Test" class="hide-methods skipped suite-Data_Driven_Test"> (hide)</a> <!-- hide-methods skipped suite-Data_Driven_Test -->
+                      <a href="#" panel-name="suite-Data_Driven_Test" class="show-methods skipped suite-Data_Driven_Test"> (show)</a> <!-- show-methods skipped suite-Data_Driven_Test -->
+                    </span>
+                    <div class="method-list-content skipped suite-Data_Driven_Test">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Test" title="testcases.FindCarTest" class="method navigator-link" hash-for-method="findCarTest(Hyundai, chrome, N)">findCarTest(Hyundai, chrome, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Test" title="testcases.FindCarTest" class="method navigator-link" hash-for-method="findCarTest(Kia, chrome, N)">findCarTest(Kia, chrome, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Test" title="testcases.CarPriceTest" class="method navigator-link" hash-for-method="findCarTest(Kia, chrome, N)">findCarTest(Kia, chrome, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Data_Driven_Test" title="testcases.CarPriceTest" class="method navigator-link" hash-for-method="findCarTest(Hyundai, chrome, N)">findCarTest(Hyundai, chrome, N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Data_Driven_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Data_Driven_Test" class="panel Data_Driven_Test">
+          <div class="suite-Data_Driven_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.CarPriceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findCarTest(Maruti, chrome, Y)">
+                  </a> <!-- findCarTest(Maruti, chrome, Y) -->
+                  <span class="method-name">findCarTest</span>
+                  <span class="parameters">(Maruti, chrome, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-U49T2LA&apos;, ip: &apos;192.168.0.24&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\CEPL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51316}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7285590018468023cf3128a0e4074586
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy13.click(Unknown Source)
+	at pages.HomePage.findNewCar(HomePage.java:29)
+	at testcases.CarPriceTest.findCarTest(CarPriceTest.java:53)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findCarTest(Toyota, chrome, Y)">
+                  </a> <!-- findCarTest(Toyota, chrome, Y) -->
+                  <span class="method-name">findCarTest</span>
+                  <span class="parameters">(Toyota, chrome, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div[2]/div[2]/div/h1&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-U49T2LA&apos;, ip: &apos;192.168.0.24&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\CEPL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 284ee06c0a956ade01303b3e6e3beda8
+*** Element info: {Using=xpath, value=//*[@id=&quot;root&quot;]/div[2]/div[2]/div/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.getText(Unknown Source)
+	at base.CarBase.getCarTitle(CarBase.java:31)
+	at testcases.CarPriceTest.findCarTest(CarPriceTest.java:46)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Test-class-failed -->
+          <div class="suite-Data_Driven_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testcases.FindCarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findCarTest(Toyota, chrome, Y)">
+                  </a> <!-- findCarTest(Toyota, chrome, Y) -->
+                  <span class="method-name">findCarTest</span>
+                  <span class="parameters">(Toyota, chrome, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div[2]/div[2]/div/h1&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-U49T2LA&apos;, ip: &apos;192.168.0.24&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\CEPL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 401b072152be3484f3e01ad73d4447db
+*** Element info: {Using=xpath, value=//*[@id=&quot;root&quot;]/div[2]/div[2]/div/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.getText(Unknown Source)
+	at base.CarBase.getCarTitle(CarBase.java:31)
+	at testcases.FindCarTest.findCarTest(FindCarTest.java:38)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findCarTest(Maruti, chrome, Y)">
+                  </a> <!-- findCarTest(Maruti, chrome, Y) -->
+                  <span class="method-name">findCarTest</span>
+                  <span class="parameters">(Maruti, chrome, Y)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;root&quot;]/div[2]/div[2]/div/h1&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-U49T2LA&apos;, ip: &apos;192.168.0.24&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\CEPL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:53332}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 50098bea46a598874fb00b9079edc4cb
+*** Element info: {Using=xpath, value=//*[@id=&quot;root&quot;]/div[2]/div[2]/div/h1}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy13.getText(Unknown Source)
+	at base.CarBase.getCarTitle(CarBase.java:31)
+	at testcases.FindCarTest.findCarTest(FindCarTest.java:46)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Test-class-failed -->
+          <div class="suite-Data_Driven_Test-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.CarPriceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findCarTest(Kia, chrome, N)">
+                  </a> <!-- findCarTest(Kia, chrome, N) -->
+                  <span class="method-name">findCarTest</span>
+                  <span class="parameters">(Kia, chrome, N)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the run mode is NO
+	at testcases.CarPriceTest.findCarTest(CarPriceTest.java:20)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findCarTest(Hyundai, chrome, N)">
+                  </a> <!-- findCarTest(Hyundai, chrome, N) -->
+                  <span class="method-name">findCarTest</span>
+                  <span class="parameters">(Hyundai, chrome, N)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the run mode is NO
+	at testcases.CarPriceTest.findCarTest(CarPriceTest.java:20)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Test-class-skipped -->
+          <div class="suite-Data_Driven_Test-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">testcases.FindCarTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="findCarTest(Hyundai, chrome, N)">
+                  </a> <!-- findCarTest(Hyundai, chrome, N) -->
+                  <span class="method-name">findCarTest</span>
+                  <span class="parameters">(Hyundai, chrome, N)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the run mode is NO
+	at testcases.FindCarTest.findCarTest(FindCarTest.java:19)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="findCarTest(Kia, chrome, N)">
+                  </a> <!-- findCarTest(Kia, chrome, N) -->
+                  <span class="method-name">findCarTest</span>
+                  <span class="parameters">(Kia, chrome, N)</span>
+                  <div class="stack-trace">org.testng.SkipException: Skipping the test as the run mode is NO
+	at testcases.FindCarTest.findCarTest(FindCarTest.java:19)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Data_Driven_Test-class-skipped -->
+        </div> <!-- panel Data_Driven_Test -->
+        <div panel-name="test-xml-Data_Driven_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\WorkSpace\eclipse-workspace\PageObjectModelWithPageFactories\src\test\resources\runner\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Data Driven Test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;extentlisteners.ExtentListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Find Car Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.FindCarTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Find Car Test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Car Price Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.CarPriceTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Car Price Test --&gt;
+&lt;/suite&gt; &lt;!-- Data Driven Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Data_Driven_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Data Driven Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Find Car Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Car Price Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Data_Driven_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Data Driven Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Data_Driven_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Data Driven Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Data_Driven_Test');
+function tableData_Data_Driven_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'findCarTest')
+data.setCell(0, 2, 'testcases.FindCarTest')
+data.setCell(0, 3, 32159);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'findCarTest')
+data.setCell(1, 2, 'testcases.CarPriceTest')
+data.setCell(1, 3, 27808);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'findCarTest')
+data.setCell(2, 2, 'testcases.FindCarTest')
+data.setCell(2, 3, 24296);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'findCarTest')
+data.setCell(3, 2, 'testcases.CarPriceTest')
+data.setCell(3, 3, 13192);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'findCarTest')
+data.setCell(4, 2, 'testcases.FindCarTest')
+data.setCell(4, 3, 12);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'findCarTest')
+data.setCell(5, 2, 'testcases.CarPriceTest')
+data.setCell(5, 3, 6);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'findCarTest')
+data.setCell(6, 2, 'testcases.FindCarTest')
+data.setCell(6, 3, 5);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'findCarTest')
+data.setCell(7, 2, 'testcases.CarPriceTest')
+data.setCell(7, 3, 5);
+window.suiteTableData['Data_Driven_Test']= { tableData: data, tableDiv: 'times-div-Data_Driven_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Data_Driven_Test">
+              </div> <!-- times-div-Data_Driven_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Data_Driven_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Data Driven Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">findCarTest(Toyota, chrome, Y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Sun_Apr_04_22_14_51_IST_2021.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Sun_Apr_04_22_14_51_IST_2021.jpg target="_blank"><img src=Sun_Apr_04_22_14_51_IST_2021.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">findCarTest(Maruti, chrome, Y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Sun_Apr_04_22_14_24_IST_2021.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Sun_Apr_04_22_14_24_IST_2021.jpg target="_blank"><img src=Sun_Apr_04_22_14_24_IST_2021.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">findCarTest(Maruti, chrome, Y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Sun_Apr_04_22_15_08_IST_2021.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Sun_Apr_04_22_15_08_IST_2021.jpg target="_blank"><img src=Sun_Apr_04_22_15_08_IST_2021.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">findCarTest(Toyota, chrome, Y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=Sun_Apr_04_22_15_38_IST_2021.jpg target="_blank">Screenshot link</a></span>
+                <span class="reporter-method-output"><br></span>
+                <span class="reporter-method-output"><a href=Sun_Apr_04_22_15_38_IST_2021.jpg target="_blank"><img src=Sun_Apr_04_22_15_38_IST_2021.jpg height=200 width=200></a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Data_Driven_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Data_Driven_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.FindCarTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">findCarTest(Maruti, chrome, Y)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">33106 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">findCarTest(Toyota, chrome, Y)</span>
+                <span class="method-start">34879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">findCarTest(Kia, chrome, N)</span>
+                <span class="method-start">61719 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61742 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">findCarTest(Hyundai, chrome, N)</span>
+                <span class="method-start">61743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">61750 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CarPriceTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">findCarTest(Maruti, chrome, Y)</span>
+                <span class="method-start">63247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77318 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">findCarTest(Toyota, chrome, Y)</span>
+                <span class="method-start">78929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">107511 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">findCarTest(Kia, chrome, N)</span>
+                <span class="method-start">109388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">109397 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">findCarTest(Hyundai, chrome, N)</span>
+                <span class="method-start">109398 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">109407 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
